@@ -1,11 +1,11 @@
-﻿using IndicoRazorFileDemo.Models;
+﻿using IndicoSDKDemo.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IndicoRazorFileDemo.Integrations
+namespace IndicoSDKDemo.Integrations
 {
     public class ResultsStorage
     {

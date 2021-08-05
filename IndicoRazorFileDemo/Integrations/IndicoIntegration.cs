@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using IndicoV2;
 using Newtonsoft.Json;
 using Microsoft.Extensions.Configuration;
-using IndicoRazorFileDemo.Models;
+using IndicoSDKDemo.Models;
 using IndicoV2.Submissions.Models;
 using System.Threading;
 using System.IO;
@@ -16,7 +16,7 @@ using Newtonsoft.Json.Linq;
 
 //This is the bulk of the indico-specific integrations. Simplified and straightforward.
 //Some setup is needed in Index.cshtml/Index.cs, Program.cs, appsettings.json, and Startup.cs to fully set this up
-namespace IndicoRazorFileDemo.Integrations
+namespace IndicoSDKDemo.Integrations
 {
     public class IndicoIntegrations
     {

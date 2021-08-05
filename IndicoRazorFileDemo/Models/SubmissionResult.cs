@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IndicoRazorFileDemo.Models
+namespace IndicoSDKDemo.Models
 {
     public class SubmissionResult
     {

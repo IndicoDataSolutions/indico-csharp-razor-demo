@@ -1,0 +1,14 @@
+{
+  "EXAMPLE_SUBMISSION": [
+    {
+      "start": 592,
+      "end": 594,
+      "label": "company_name",
+      "text": "indico",
+      "confidence": {
+        "company_name": 0.7273851037025452,
+        "<PAD>": 0.2726149260997772
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
-using IndicoRazorFileDemo.Integrations;
-using IndicoRazorFileDemo.Models;
+using IndicoSDKDemo.Integrations;
+using IndicoSDKDemo.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IndicoRazorFileDemo.Pages
+namespace IndicoSDKDemo.Pages
 {
     public class SubmissionsModel : PageModel
     {

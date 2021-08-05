@@ -1,4 +1,4 @@
-﻿using IndicoRazorFileDemo.Integrations;
+﻿using IndicoSDKDemo.Integrations;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -10,7 +10,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IndicoRazorFileDemo.Pages
+namespace IndicoSDKDemo.Pages
 {
     public class IndexModel : PageModel
     {

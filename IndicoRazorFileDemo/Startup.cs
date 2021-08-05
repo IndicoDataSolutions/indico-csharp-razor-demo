@@ -1,4 +1,4 @@
-using IndicoRazorFileDemo.Integrations;
+using IndicoSDKDemo.Integrations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IndicoRazorFileDemo
+namespace IndicoSDKDemo
 {
     public class Startup
     {
