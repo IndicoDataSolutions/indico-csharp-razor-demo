@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Indico C# Demo App";
+}
+
+<div class="text-center">
+    <h1>Submit to Workflow</h1>
+</div>
+
+<br />
+<form class="text-center" method="post" enctype="multipart/form-data">
+    <input asp-for="UploadedFile" />
+    <input type="submit" />
+</form>
+<br/>
+<div class="text-center">
+<a asp-area="" asp-page="/Submissions">View Submission Results</a>
+</div>

@@ -1,0 +1,36 @@
+﻿@page
+@model IndicoRazorFileDemo.Pages.SubmissionsModel
+
+@{
+    ViewData["Title"] = "Submissions";
+}
+
+<h1>View Results</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.selectedResult.SubmissionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.selectedResult.Results)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.allResults)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SubmissionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Results)
+                </td>
+               
+            </tr>
+        }
+    </tbody>
+</table>
