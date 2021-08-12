@@ -93,9 +93,8 @@ namespace IndicoSDKDemo.Integrations
             using var reader = new JsonTextReader(new StreamReader(submissionResultsFile));
             var result = JsonSerializer.Create().Deserialize<JObject>(reader);
             var errors = ((JArray)result["errors"]).Select(x => x.ToString());
-            //Note: what json is returned here depends heavily on the type of worklfow (extraction vs clasification) and
-            //The labels being extracted and if review is on/off
-            //So for the demo: we will save and display the raw json result
+
+            //For this demo: we'll simply save and display the raw json result
             var raw_results = result["results"]["document"]["results"];
 
             var workflow_sub = new SubmissionResult()
