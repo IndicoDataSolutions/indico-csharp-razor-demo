@@ -70,7 +70,7 @@ namespace IndicoSDKDemo.Integrations
         public SubmissionResult GetSubmissionResult(int submissionId)
         {
 
-            //there are two ways to do this, one is looping while stauts == pending, and then manually
+            //there are two ways to do this, one is looping while status == pending, and then manually
             //fetch the file yourself... the other
             //is to use the _submissionAwaiter which will wait until the submission is out of PENDING or not FAILED
             
