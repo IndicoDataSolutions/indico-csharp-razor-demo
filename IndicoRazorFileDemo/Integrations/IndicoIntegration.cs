@@ -85,7 +85,7 @@ namespace IndicoSDKDemo.Integrations
             {
                 throw new Exception("Submission failed! " + status.Errors);
             }
-           var resultUri = new Uri(new Uri("indico-file://"), status.ResultFile);
+            var resultUri = new Uri(new Uri("indico-file://"), status.ResultFile);
             CancellationToken cancellationToken = default;
 
             var submissionResultsFile = Task.Run(async () => await _storageClient.GetAsync(resultUri, cancellationToken)).GetAwaiter().GetResult();
